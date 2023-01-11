@@ -30,7 +30,7 @@ jobs:
         with:
           push: true
           platforms: linux/amd64,linux/arm64
-          tags: jakepricedev/docker-caddy-namecheap:2.5.1-alpine
+          tags: jakepricedev/docker-caddy-namecheap:2.6.2-alpine
 
       - name: Docker Hub Description
         uses: peter-evans/dockerhub-description@v3
